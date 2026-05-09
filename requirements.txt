@@ -1,0 +1,4 @@
+# SecureVault — Cryptography Coursework
+# Python 3.10+ required
+# No cryptographic libraries used anywhere
+matplotlib>=3.5.0

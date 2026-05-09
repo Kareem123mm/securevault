@@ -1,0 +1,79 @@
+# ===========================
+# SecureVault — .gitignore
+# ===========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Test artifacts (temp files created during tests)
+testrecord.txt
+testrecord.rc6
+testrecord.rc6dec
+testrecorddec.txt
+patientrecord.txt
+patientrecord.rc6
+patientrecord.rc6dec
+patientrecord.xtdec
+patientrecord.xteaenc
+wrongdec.txt
+*.rc6enc
+*.rc6dec
+*.xteaenc
+*.xtdec
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+keylog.json
+performance_results/keylog.json
+
+# Keep performance results JSON + charts but ignore temp outputs
+# (comment these out if you WANT to push results)
+# performance_results/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Secrets / keys (never commit real keys)
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.py
+config.secret.*

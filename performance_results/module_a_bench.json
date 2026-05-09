@@ -1,0 +1,108 @@
+{
+  "rc6": {
+    "1KB": {
+      "encrypt": {
+        "min_ms": 37.5625,
+        "max_ms": 51.625,
+        "avg_ms": 45.6259,
+        "peak_memory_kb": 5.11,
+        "plaintext_size": 1024,
+        "ciphertext_size": 1040,
+        "expansion_ratio": 1.0156
+      },
+      "decrypt": {
+        "min_ms": 42.5349,
+        "max_ms": 46.0643,
+        "avg_ms": 43.9588,
+        "peak_memory_kb": 5.09
+      }
+    },
+    "10KB": {
+      "encrypt": {
+        "min_ms": 379.4394,
+        "max_ms": 420.2212,
+        "avg_ms": 397.4883,
+        "peak_memory_kb": 32.07,
+        "plaintext_size": 10240,
+        "ciphertext_size": 10256,
+        "expansion_ratio": 1.0016
+      },
+      "decrypt": {
+        "min_ms": 433.8943,
+        "max_ms": 479.43,
+        "avg_ms": 455.0843,
+        "peak_memory_kb": 32.06
+      }
+    },
+    "100KB": {
+      "encrypt": {
+        "min_ms": 3504.436,
+        "max_ms": 3621.1161,
+        "avg_ms": 3547.4771,
+        "peak_memory_kb": 309.17,
+        "plaintext_size": 102400,
+        "ciphertext_size": 102416,
+        "expansion_ratio": 1.0002
+      },
+      "decrypt": {
+        "min_ms": 4105.3621,
+        "max_ms": 4372.9966,
+        "avg_ms": 4235.9814,
+        "peak_memory_kb": 309.19
+      }
+    }
+  },
+  "xtea": {
+    "1KB": {
+      "encrypt": {
+        "min_ms": 118.461,
+        "max_ms": 140.9196,
+        "avg_ms": 126.6043,
+        "peak_memory_kb": 3.64,
+        "plaintext_size": 1024,
+        "ciphertext_size": 1032,
+        "expansion_ratio": 1.0078
+      },
+      "decrypt": {
+        "min_ms": 127.7913,
+        "max_ms": 173.1452,
+        "avg_ms": 151.3498,
+        "peak_memory_kb": 3.67
+      }
+    },
+    "10KB": {
+      "encrypt": {
+        "min_ms": 1153.6536,
+        "max_ms": 1163.1579,
+        "avg_ms": 1157.8609,
+        "peak_memory_kb": 31.01,
+        "plaintext_size": 10240,
+        "ciphertext_size": 10248,
+        "expansion_ratio": 1.0008
+      },
+      "decrypt": {
+        "min_ms": 1258.1761,
+        "max_ms": 1450.3312,
+        "avg_ms": 1358.8409,
+        "peak_memory_kb": 31.0
+      }
+    },
+    "100KB": {
+      "encrypt": {
+        "min_ms": 11066.5808,
+        "max_ms": 11597.0276,
+        "avg_ms": 11414.9921,
+        "peak_memory_kb": 310.79,
+        "plaintext_size": 102400,
+        "ciphertext_size": 102408,
+        "expansion_ratio": 1.0001
+      },
+      "decrypt": {
+        "min_ms": 12668.6676,
+        "max_ms": 13473.4212,
+        "avg_ms": 12976.3188,
+        "peak_memory_kb": 310.79
+      }
+    }
+  }
+}

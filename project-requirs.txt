@@ -1,0 +1,101 @@
+1.    Project Overview 
+This is a  practical project where students will progressively develop and document a cryptographic software tool throughout the semester. The tool should be inspired by a real-world use case (e.g., a secure authentication portal) and must support encryption of data both in transit and at rest. Each milestone builds upon previous work and explores a different cryptographic technique. Students will compare the methods in terms of performance, complexity, usability, and security strength.
+Important Constraints: 
+- Students are strictly prohibited from using encryption libraries (e.g., OpenSSL, PyCryptodome). Only basic mathematical libraries (e.g., power, logarithm) may be used. 
+- All encryption algorithms must be implemented from scratch, using mathematical formulations and manual logic. 
+- For requirements 1 and 2, students must provide handwritten verification of a simple calculation example using small numbers.
+- An extra credit opportunity is available for students who successfully implement and demonstrate a post-quantum cryptographic algorithm (e.g., lattice-based schemes) for authentication.
+
+A. Symmetric Cryptography Module
+Objectives: 
+- Implement at least two symmetric encryption algorithms other than the ones explained in class (e.g., AES, ChaCha20, Blowfish) for secure data storage 
+- Avoid use of cryptographic libraries 
+— implement mathematical equations manually using basic math functions only - Integrate with a simple file protection use case (e.g., document encryption) 
+- Provide handwritten verification of at least one sample encryption/decryption using small values 
+- Include performance analysis: computation cost (runtime, memory) and communication cost (ciphertext size)
+
+B. Asymmetric Cryptography Module  
+Objectives: 
+- Implement at least one public key cryptographic algorithm  other than the ones explained in class. 
+- Avoid cryptographic libraries; use only basic math libraries and manual logic 
+- Demonstrate secure communication (e.g., key exchange or digital signature) 
+- Provide handwritten verification of one example using small values 
+- Include performance analysis: computation and communication costs
+
+C. Integrated Secure Application 
+Objectives: 
+- Combine previous modules into a fully integrated, end-to-end encrypted system (client/server or P2P model) 
+- Implement encryption in transit (TLS-style) and at rest, using at least two different encryption techniques 
+- Simulate a realistic multi-party business case (e.g., cloud service, banking system, secure messaging or authentication portal) 
+- Clearly define roles: client, server, user, certificate authority, etc.
+- Design and implement a full key management and distribution framework, including: - Key generation, exchange, rotation - Certificate Authority simulation for issuing and validating certificates 
+- Include detailed performance study covering computational and communication cost of the full system
+Optional bonus: - Implement a post-quantum cryptographic algorithm (e.g., NTRU, Kyber)
+
+2.   Submission Requirements
+·  Submit all deliverables via Google classroom:
+o   Final report (1500 words) including  performance comparison charts
+o  Handwritten example(s) in image/PDF format
+o   A collaborative video demonstration of the entire project featuring all team members. Each participant must provide a concise overview of their specific contributions and show their understanding of the project  framework.
+o  Source code
+o  README with instructions
+·      Final report must cite all sources, tools, and references
+·      Ensure your name, student ID, and module code appear clearly
+
+3.   Academic Integrity & Use of Generative AI
+
+Students must ensure that all submitted work reflects their own understanding and original effort. The use of generative AI tools
+(e.g., ChatGPT, Copilot, Gemini) to draft paragraphs or sections of your report is strictly prohibited. You may use AI tools for code suggestions, syntax help, and debugging. You must not use AI to fully generate code or reports. Clearly declare any AI usage in your README. All work is subject to manual review and may be checked using AI-detection and plagiarism tools. Suspected misconduct will follow the university’s academic integrity procedures.
+
+To support originality, students will be asked to:
+·      Explain their code choices in class
+·      Submit evidence of their software development process 
+·      Provide drafts or development logs
+
+4.   Student Template – Cryptography Coursework Report (1500 words + Code deliverables)
+a) Title of Project
+·       Give your project a clear, descriptive title.
+b) Introduction and Problem Statement
+·       Introduce the topic of applied cryptography.
+·       Define the your project addresses (e.g., protecting data in transit and at rest, preventing unauthorized access).
+·       Explain why this problem is relevant and important in real-world contexts (e.g., business, government, healthcare).
+c) Project Objectives
+1.     Implement at least two symmetric encryption algorithms from scratch for secure storage.
+2.     Implement an asymmetric encryption algorithm for secure transmission.
+3.     Integrate both approaches into a multi-party communication system with certificate-based authentication.
+4.     Conduct performance analysis (computation and communication cost) of implemented algorithms.
+5.     (Optional) Implement a post-quantum authentication mechanism.
+d) Literature Review
+• Review at least 10 credible academic or industry sources related to:
+o   Symmetric and asymmetric encryption
+o   Key management and certificate authorities
+o   Cryptographic performance studies
+o   Multi-party secure communication
+o   Post-quantum cryptography (if relevant)
+• Identify what is already known and where there is a gap that your project addresses.
+e) Methodology
+• Implementation Approach: Describe how you will implement all encryption algorithms from scratch without using encryption libraries, using only basic math libraries (e.g., power, log).
+• Verification: Explain how you will perform handwritten verification with small numeric examples for requirements 1 & 2. 
+• Performance Evaluation: Outline how you will measure computation and communication costs (tools, datasets, metrics). 
+• Testing: Describe how you will test encryption/decryption correctness and key management functions. 
+• Optional PQC: State if you will implement a post-quantum algorithm, and how.
+g) Use Case and Scenario Design
+• Describe your realistic business case involving multiple parties (e.g., a secure authentication portal with a client, server, and CA). 
+• Include a data flow diagram or sequence diagram showing communication and encryption stages. 
+• Explain how keys are generated, distributed, and validated.
+h) Ethical, Legal, and Professional Considerations
+• Confirm that no real sensitive data will be used. \
+• Highlight any legal compliance requirements (e.g., GDPR, data privacy laws). 
+• Explain how you ensure responsible cryptographic practices.
+i) Conclusion
+• Summarize your project’s importance, feasibility, and intended impact. 
+• Mention expected performance improvements or security benefits
+
+5.   Marking Rubric
+Assessment Criteria:
+·       Technical Implementation Quality
+·       Cryptographic Design and Application 
+·       Justification and Comparative Analysis
+·       Report Clarity and Professionalism 
+·       Creativity and Use Case Design 
+·       Bonus: Post-Quantum Implementation.

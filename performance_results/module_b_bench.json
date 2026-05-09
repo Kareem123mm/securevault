@@ -1,0 +1,119 @@
+{
+  "keygen": {
+    "min_ms": 25.7915,
+    "max_ms": 28.2753,
+    "avg_ms": 26.9095,
+    "peak_memory_kb": 2.04
+  },
+  "pubkey_bits": 2048,
+  "operations": {
+    "16B": {
+      "encrypt": {
+        "min_ms": 57.5552,
+        "max_ms": 61.9315,
+        "avg_ms": 59.2961,
+        "peak_memory_kb": 6.7
+      },
+      "decrypt": {
+        "min_ms": 61.5809,
+        "max_ms": 61.9874,
+        "avg_ms": 61.7769,
+        "peak_memory_kb": 6.69
+      },
+      "sign": {
+        "min_ms": 37.2743,
+        "max_ms": 37.9533,
+        "avg_ms": 37.5881,
+        "peak_memory_kb": 4.86
+      },
+      "verify": {
+        "min_ms": 66.5419,
+        "max_ms": 68.9518,
+        "avg_ms": 67.7971,
+        "peak_memory_kb": 6.83
+      },
+      "ciphertext_bits": 4094
+    },
+    "64B": {
+      "encrypt": {
+        "min_ms": 60.1409,
+        "max_ms": 63.5001,
+        "avg_ms": 61.3973,
+        "peak_memory_kb": 6.7
+      },
+      "decrypt": {
+        "min_ms": 60.2746,
+        "max_ms": 62.6565,
+        "avg_ms": 61.2029,
+        "peak_memory_kb": 6.69
+      },
+      "sign": {
+        "min_ms": 36.031,
+        "max_ms": 38.4081,
+        "avg_ms": 36.9365,
+        "peak_memory_kb": 3.89
+      },
+      "verify": {
+        "min_ms": 68.1041,
+        "max_ms": 70.4101,
+        "avg_ms": 69.0859,
+        "peak_memory_kb": 6.77
+      },
+      "ciphertext_bits": 4095
+    },
+    "256B": {
+      "encrypt": {
+        "min_ms": 62.0291,
+        "max_ms": 75.3098,
+        "avg_ms": 66.8688,
+        "peak_memory_kb": 6.7
+      },
+      "decrypt": {
+        "min_ms": 61.0106,
+        "max_ms": 64.8102,
+        "avg_ms": 62.4384,
+        "peak_memory_kb": 6.69
+      },
+      "sign": {
+        "min_ms": 36.7675,
+        "max_ms": 44.541,
+        "avg_ms": 40.0925,
+        "peak_memory_kb": 3.88
+      },
+      "verify": {
+        "min_ms": 68.7172,
+        "max_ms": 74.8488,
+        "avg_ms": 72.1215,
+        "peak_memory_kb": 6.83
+      },
+      "ciphertext_bits": 4092
+    },
+    "1024B": {
+      "encrypt": {
+        "min_ms": 57.9401,
+        "max_ms": 64.6488,
+        "avg_ms": 62.0665,
+        "peak_memory_kb": 6.7
+      },
+      "decrypt": {
+        "min_ms": 61.1246,
+        "max_ms": 63.4704,
+        "avg_ms": 62.3163,
+        "peak_memory_kb": 6.69
+      },
+      "sign": {
+        "min_ms": 42.7506,
+        "max_ms": 45.5131,
+        "avg_ms": 44.4183,
+        "peak_memory_kb": 3.92
+      },
+      "verify": {
+        "min_ms": 77.4394,
+        "max_ms": 81.6938,
+        "avg_ms": 80.0904,
+        "peak_memory_kb": 6.86
+      },
+      "ciphertext_bits": 4094
+    }
+  }
+}
