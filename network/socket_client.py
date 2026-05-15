@@ -19,6 +19,7 @@ class SocketClient:
 
     def connect(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.sock.settimeout(10)  # 10 second timeout
         self.sock.connect((self.host, self.port))
         print(f"[CLIENT] Connected to {self.host}:{self.port}")
 
@@ -32,6 +33,8 @@ class SocketClient:
     def _receive_message(self, temp_key=None):
         key = temp_key or self.session_key
         length_bytes = self.sock.recv(4)
+        if not length_bytes or len(length_bytes) < 4:
+            raise Exception("Connection closed by server")
         msg_length = int.from_bytes(length_bytes, 'big')
         data = b""
         while len(data) < msg_length:

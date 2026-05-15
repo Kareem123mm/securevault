@@ -1,12 +1,12 @@
 {
-  "keygen_ms": 22.5769,
-  "rc6_throughput_mbs": 0.32,
-  "xtea_throughput_mbs": 0.12,
+  "keygen_ms": 23.8321,
+  "rc6_throughput_mbs": 0.33,
+  "xtea_throughput_mbs": 0.11,
   "overhead": {
     "rc6_ratio": 1.008,
     "xtea_ratio": 1.008,
-    "elgamal_bits_per_block": 4096
+    "elgamal_bits_per_block": 4095
   },
-  "handshake_ms": 164.5564,
-  "full_transaction_ms": 182.4976
+  "handshake_ms": 176.4237,
+  "full_transaction_ms": 192.8918
 }

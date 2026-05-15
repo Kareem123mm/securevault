@@ -1,0 +1,4 @@
+python -B benchmarks/perf_symmetric.py
+python -B benchmarks/perf_asymmetric.py
+python -B benchmarks/perf_full.py
+python -c "import os; print(os.listdir('performance_results'))"
