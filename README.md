@@ -1,5 +1,10 @@
 # SecureVault — Secure Medical Records System
 
+## Team members
+Kareem Mohamed Elghetany | Student ID: 320230080
+Omar Sameh Dorgham | Student ID: 320230044
+Youssef Ahmed Said | Student ID: 320230137
+
 ## Overview
 SecureVault is a from-scratch cryptographic system simulating a secure hospital 
 portal. It implements symmetric encryption, asymmetric encryption, certificate-based 
